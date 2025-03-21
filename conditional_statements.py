@@ -37,9 +37,9 @@ else:
 num2=5
 num3=11
 if num2>num3:
-    print('num2 is greatest number')
+    print('f"{num2} is greatest number')
 else:
-    print('num3 is greatest number')
+    print('f{num3} is greatest number')
 
 
 # Q-5. Print "Pass" if a student scores more than 40 marks otherwise, print "Fail."
@@ -127,28 +127,28 @@ else:
 
 # Q-1.Write a program to find the greatest of three numbers. 2 5 1
 
-# first=int(input('Enter the first number : '))
-# second=int(input('Enterr the second number : '))
-# third=int(input('Enter the third number : '))
-
-# if first>second and first>third:
-#     print('First number is greatest number')
-# elif second>first and second>third:
-#     print('second number is geatest number')
+first=int(input('Enter the first number : '))
+second=int(input('Enter the second number : '))
+third=int(input('Enter the third number : '))
+                                                            #   10 20 30          10 30 20       30 20 10
+if first>second and first>third:
+    print('First number is greatest number')         
+elif second>third:
+    print('second number is geatest number')
 # elif third>first and third>second:
 #     print('third number is greatest number')
-# else:
-#     print('enter valid numbers')
+else:
+    print('third number is greatest number')
 
 
 
 # Q-2.Check if a year is a leap year. 
 
-# z=int(input("Enter the year : "))
-# if z % 4 == 0 and z % 100 != 0:
-#     print("is is a leaf year")
-# else:
-#     print('it is not a leaf year')
+z=int(input("Enter the year : "))
+if z % 4 == 0 and z % 100 != 0:
+    print("is is a leaf year")
+else:
+    print('it is not a leaf year')
 
 
 
@@ -190,6 +190,30 @@ else:
     print("enter the valid grade")
     
 
+# Q-5 : Write a program to check if three sides length form a valid triangle. 
 
 
+s1=float(input('side 1 length'))
+s2=float(input('side 2 length'))
+s3=float(input('side 3 length'))
+
+
+if s1+s2>s3:
+    print('given lenghts can foam a triangle')
+else:
+    print('given lenghts can not foam a triangle')
+
+
+
+# Q-6 : if a number is divisible by 3 then print fizz, if it is divisible by 5 then print 5, if it is divided by 15 then print fizzbuzz
+number=10
+
+if number%15==0:
+    print('fizz')
+elif number%5==0:
+    print('buzz')
+elif number%3==0:
+    print('fizz buzz')
+else:
+    print('it is not divible by any number')
 
