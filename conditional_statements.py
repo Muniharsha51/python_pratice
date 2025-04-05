@@ -53,7 +53,7 @@
 
 # # Q-6.Write a program to display the day of the week based on a number input (1 for Monday, 2 for Tuesday, etc.). 
 
-# day=1
+# day=float(input("Enter first number: "))
 # if day==1:
 #     print('Monday')
 # elif day==2:
@@ -73,25 +73,25 @@
 
 # # Q-7.Implement a simple calculator to perform addition, subtraction, multiplication, and division.
 
-# # number1 = float(input("Enter first number: "))
-# # number2 = float(input("Enter second number: "))
-# # operator= input('enter +,-,*,/ any onething')
+number1 = float(input("Enter first number: "))
+number2 = float(input("Enter second number: "))
+operator= input('enter +,-,*,/ any onething')
 
-# # if operator == '+':
-# #     result = number1 + number2
-# # elif operator == '-':
-# #     result = number1 - number2
-# # elif operator == '*':
-# #     result = number1 * number2
-# # elif operator == '/':
-# #     if number2 != 0:
-# #         result = number1 / number2
-# #     else:
-# #         result = "Error: Division by zero"
-# # else:
-# #     result = "Error: Invalid operator"
+if operator == '+':
+    result = number1 + number2
+elif operator == '-':
+    result = number1 - number2
+elif operator == '*':
+    result = number1 * number2
+elif operator == '/':
+    if number2 != 0:
+        result = number1 / number2
+    else:
+        result = "Error: Division by zero"
+else:
+    result = "Error: Invalid operator"
 
-# # print("Result:", result)
+print("Result:", result)
 
 # # Q-8.Write a program to display the name of a month based on the month number (1 for January, 2 for February, etc.).
 
