@@ -11,12 +11,16 @@
 
 
 #Q-2 :---------------- Write a program to print the sum of the first  n  natural numbers. 
-
+#--------------------METHOD-1
 # num=50
 # sum=0
 # for i in range(1,num):
 #     sum=sum+i
 # print(sum)
+
+#--------------------METHOD-2
+# n=3
+# print((n*(n+1))//2)
 
 
 #Q-3 :------------------Print all even numbers between 1 and 50 using a  while loop. 
@@ -97,6 +101,16 @@
 #Q-2 : Check if a given number is a prime number using a for loop. 
 
     
+
+
+
+
+
+
+
+
+
+
 
 
 
