@@ -252,3 +252,38 @@
 # for i in list1:
 #     output_list.append(sum_of_digits(i))
 # print(output_list)
+
+
+
+
+#----------------------------------------------------Sorting problem
+
+# list1=[20,15,26,2,98,6]
+# new_list=[2,6,15,20,26,98]
+# output=[]
+# for i in list1:
+#     output.append(new_list.index(i)+1)
+
+# print(output)
+
+
+# list1=[202,29,112,88]
+# for i in list1:
+#     print(i)
+
+list1=[568,89,112,88,571]
+
+def chec_inc_order(input_num):
+    temp=input_num #568
+    prev=10
+    while temp>0:
+        digit=temp%10 #8  6  5
+        # print(digit)
+        if digit >=prev:
+            return False
+        prev=digit #8   6    5
+        temp=temp//10 #56   5  0
+    return True
+
+for i in list1:
+    print (chec_inc_order(i))
