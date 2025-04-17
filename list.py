@@ -271,19 +271,41 @@
 # for i in list1:
 #     print(i)
 
-list1=[568,89,112,88,571]
+#-------------------------------------------------------------------
+# list1=[568,89,112,88,571]
 
-def chec_inc_order(input_num):
-    temp=input_num #568
-    prev=10
-    while temp>0:
-        digit=temp%10 #8  6  5
-        # print(digit)
-        if digit >=prev:
-            return False
-        prev=digit #8   6    5
-        temp=temp//10 #56   5  0
-    return True
+# def chec_inc_order(input_num):
+#     temp=input_num #568
+#     prev=10
+#     while temp>0:
+#         digit=temp%10 #8  6  5
+#         # print(digit)
+#         if digit >=prev:
+#             return False
+#         prev=digit #8   6    5
+#         temp=temp//10 #56   5  0
+#     return True
 
-for i in list1:
-    print (chec_inc_order(i))
+# for i in list1:
+#     print (chec_inc_order(i))
+
+
+#-------------------------------------------Nearest prime number
+
+# while True:
+#     temp=temp+1
+#     if check
+
+
+# #left prime 
+# temp2=num1
+# left_prime="empty"
+# while temp2>1:
+#     temp2-=1
+#     if check_prime(temp2):
+#         left_prime=temp2
+#         break
+# print(left_prime)
+
+# if left_prime =='empty':
+#     print()
