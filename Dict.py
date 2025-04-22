@@ -79,3 +79,15 @@
 #Q. Given two dictionaries, merge them into one. If a key exists in both, sum their values. ------------------------------------
 # dict1={'k1':15,'K2':25,'K3':10}
 # dict2={'K3':90,'K4':1}
+
+# res = {}
+# for i, j in dict1.items():
+#     res[i] = j
+# for i,j in dict2.items():
+#     if i in res:
+#         res[i] = res[i] + j
+#     else:
+#         res[i] = j
+# print(res)
+
+#Q. #Anagrams - #STOP, POST, TOPS #AJAY, JAYA-----------------------------------------------------------------------------------
